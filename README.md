@@ -52,7 +52,7 @@ Entretanto para um usuário não precisar ficar sempre se autenticando há o rec
 
 ## Status Code (Códigos de resposta)
 
-São códigos utilizado na comunicação para informar que tipo de resposta está sendo enviada.
+São códigos utilizado na comunicação para informar que tipo de resposta está sendo retornada.
 
 Classes dos códigos
 
