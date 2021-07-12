@@ -36,3 +36,17 @@ Os **recursos** é aquilo que queremos acessar. Para chegar a um recursos por ve
 
 ***
 
+## Request e Response
+
+> ***Request:** É a requisição enviada sempre do cliente ao servidor. A comunicação sempre inicia no lado do cliente.*
+> 
+> ***Response:** É a resposta do servidor para a requisição.*
+
+As requisições são **stateless**, isso significa que elas não guardam os estados da sessão. Em outras palavras, toda requisição deve ser feita com todas as informações necessárias.
+
+Entretanto para um usuário não precisar ficar sempre se autenticando há o recurso dos **cookies**, que são pequenos arquivos de texto (criados pela aplicação e armazenados no navegador) utilizados para guardar as informações necessárias, como Session ID (autenticação), preferências de usuário (modo escuro na página) etc.
+
+**Sessão HTTP:** Tempo em que o cliente permanece ativo no sistema. Finalizada quando o usuário desloga ou fecha a página.
+
+***
+
