@@ -65,3 +65,34 @@ Classes dos códigos
 | 5XX    | Erro no lado do servidor  |
 
 [Lista Completa de Status Codes](https://www.w3schools.com/tags/ref_httpmessages.asp)
+
+***
+
+## Métodos HTTP
+
+São as ações que podem ser enviadas pelo protocolo.
+
+| Nome     | Descrição                                      |
+| :-----   | :---------                                     |
+| `GET`    | Receber dados (params na URL)                  |
+| `POST`   | Submeter dados (params no corpo da requisição) |
+| `PUT`    | Atualizar um recurso                           |
+| `DELETE` | Remover um recurso                             |
+
+***
+
+## Envio de parâmetros na URL
+
+Os parâmetros enviados na URL, seguem o seguinte padrão:
+
+`?nome_do_parametro=valor&nome_do_outro_param=valor`
+
+Em que: 
+
+`?` Representa o início dos argumentos.
+
+`=` Atribui um valor a um parâmetro.
+
+`&` Concatena mais de um parâmetro.
+
+***
