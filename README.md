@@ -96,3 +96,21 @@ Em que:
 `&` Concatena mais de um parâmetro.
 
 ***
+
+## REST (Representational State Transfer)
+
+**Arquitetura**
+
+Recurso
+
+O recurso é o serviço com o qual as aplicações interagem. Em sistemas REST, as URIs devem conter apenas substantivos.
+
+Operação
+
+São as ações dos métodos como GET, POST, PUT, DELETE etc. Representam a ação que será realizada no recurso.
+
+Representação
+
+É o formato da reposta enviada pelo servidor. Exemplos: JSON, XML e HTML.
+
+***
