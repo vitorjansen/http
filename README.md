@@ -114,3 +114,26 @@ Representação
 É o formato da reposta enviada pelo servidor. Exemplos: JSON, XML e HTML.
 
 ***
+
+# HTTP2
+
+O HTTP2 veio da necessidade dos clientes de dispositivos móveis para trafegar os dados mais rapidamente. As redes mobile raramente são de alta qualidade, por isso o HTTP2 possui diversas tecnologias de compactação das requisições.
+
+O HTTP2 também implementa por padrões, algumas camadas de segurança, são elas:
+
+- TLS: Acaba sendo obrigatório porque os browsers só suportam o HTTPS nesta versão
+- Dados Binários: Os dados são trafegados em binário e não mais em texto puro.
+- GZIP: É uma tecnologia especializada em comprimir as RESPOSTAS das comunicações HTTP/2.
+- HPACK: É uma tecnologia especializada em comprimir os HEADERS das comunicações HTTP/2.
+
+***Headers Stateful***
+
+No HTTP/2 os cabeçalhos são stateful, isso significa que ele armazena os dados das requisições feitas para ser reutilizado nas próximas. Isso ajuda a diminuir o tráfego na rede, pois headers que já foram enviados uma vez não precisam ser reenviados.
+
+***Server Push***
+
+Este conceito também usado para ganhar performance, permite que o servidor se antecipe às requisições do cliente, podendo empurrar os recursos necessários de uma página antes de serem solicitados, caso seja identificado que serão necessários. Isso diminui o gasto de tempo entre requisição e resposta de todos os recursos.
+
+***Multiplexação***
+
+Torna o envio de requisição e reposta **paralelo**. Deste modo, é possível fazer várias requisições antes mesmo de receber suas repostas, os retornos chegam depois conforme os servidores forem processando-os.
