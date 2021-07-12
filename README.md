@@ -50,3 +50,18 @@ Entretanto para um usuário não precisar ficar sempre se autenticando há o rec
 
 ***
 
+## Status Code (Códigos de resposta)
+
+São códigos utilizado na comunicação para informar que tipo de resposta está sendo enviada.
+
+Classes dos códigos
+
+| Número | Descrição                 |
+| :---   | :------                   |
+| 1XX    | Informação                |
+| 2XX    | Sucesso                   |
+| 3XX    | Redirecionamento          |
+| 4XX    | Erro no lado do cliente   |
+| 5XX    | Erro no lado do servidor  |
+
+[Lista Completa de Status Codes](https://www.w3schools.com/tags/ref_httpmessages.asp)
